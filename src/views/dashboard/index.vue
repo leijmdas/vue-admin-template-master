@@ -1,16 +1,6 @@
 <template>
   <div class="dashboard-container">
     <div class="dashboard-text">name: {{ name }}</div>
-
-    <el-carousel height="100%" width='100%' arrow="always" indicator-position="none"  >
-
-          <div class="mask" v-show="true">
-            <img name='img' src="../../assets/images/wallpaper.png" style="
-                              width: 100%;
-                              height: auto;"
-                 alt=""  >
-          </div>
-    </el-carousel>
   </div>
 </template>
 
